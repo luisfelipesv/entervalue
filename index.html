@@ -2,10 +2,47 @@
 <html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<head>
+<style>
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+h1 {
+  color: rgb(220, 220, 220);
+  font-family: verdana;
+}
+.Aligner {
+  
+  display: flex;           /* establish flex container */
+  -webkit-box-align: center;
+-moz-box-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+-webkit-box-pack: center;
+-moz-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+justify-content: center;
+    height: 300px;
+}
+.Aligner-item {
+  width: 300px;
+  height: 100px;
+  text-align: center;
+}
+
+</style>
+</head>
+
 <body>
-
-Sitio en construcción
-
+    <div class="Aligner">
+        <div class="Aligner-item">
+            <img src="warning.png" alt="Under construction" width="300" height="300">
+            <h1 >Sitio en construcción</h1>
+        </div>
+    </div>
 </body>
+
 </html>
